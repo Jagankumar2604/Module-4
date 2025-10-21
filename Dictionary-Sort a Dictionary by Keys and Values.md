@@ -54,6 +54,7 @@ print("\nDictionary sorted by values:", sorted_by_values)
 ## Result
 Thus,a Python program that sorts a dictionary's:
 - Keys in alphabetical order
-- Values in alphabetical order is executed successfully.
-- 
+- Values in alphabetical order
+  is executed successfully.
+
 

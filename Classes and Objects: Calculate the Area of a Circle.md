@@ -12,22 +12,22 @@ To write a Python program that calculates the **area of a circle** based on the 
 
 ## 🧾 Program
 ```
-import math 
+import math
+
 class cse:
-    def self_value(self,a):
-        self.a=a
-    def mech(self):
-       a=math.pi*self.a*self.a
-       print(f"Area of circle: {a:.2f}") 
-a=int(input())
-obj=cse()
-obj.self_value(a)
-obj.mech()
+    def mech(self, r):
+        c = math.pi * r**2
+        print(f"Area of circle: {c:.2f}")
+
+r = int(input("Enter radius: "))
+ci = cse() 
+ci.mech(r)
+
 ```
 
 ## Output
-<img width="1676" height="432" alt="image" src="https://github.com/user-attachments/assets/b4340829-9006-40d6-af0a-ce9a0bffe028" />
+<img width="648" height="326" alt="502987091-b63d3033-71cc-4365-a4f1-3fd53c098684" src="https://github.com/user-attachments/assets/ac14f94f-02b5-4a9b-a4f4-ac5b0647513b" />
 
 
 ## Result
-Thus, Python program that calculates the **area of a circle** is executed successfully.
+Thus the program that calculates the area of a circle based on the radius provided by the user is executed successfully.

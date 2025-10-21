@@ -13,23 +13,18 @@ To write a Python program that counts the number of lines in a text file `story.
 
 ## 🧾 Program
 ```
-import csv
-with open('story.csv', 'w') as f:
-    f.write("The sun rise in east\n")
-    f.write("Hello guy.\n")
-
 count = 0
-with open('story.csv', 'r') as file:
+with open("story.txt", "r") as file:
     for line in file:
-        if not line.startswith('T'):
+        if line.strip() and not line.lstrip().startswith('T'):
             count += 1
+print("Sum :", count)
 
-print("Lines not starting with 'T':", count)
 ```
 
 ## Output
-<img width="1121" height="287" alt="image" src="https://github.com/user-attachments/assets/ff1a7e70-1676-4585-b75a-31512fc41b0f" />
+<img width="395" height="167" alt="502987690-51b25bda-3717-4183-aa6f-b3fa7e0284bf" src="https://github.com/user-attachments/assets/08aecaf7-b205-4cc1-a6f1-8bcd59069b16" />
 
 
 ## Result
-Thus,Python program that counts the number of lines in a text file `story.txt` that do **not** start with the alphabet `'T'' is executed successfully.
+Thus,Python program that counts the number of lines in a text file `story.txt` that do not start with the alphabet `'T'' is executed successfully.

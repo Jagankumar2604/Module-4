@@ -31,30 +31,23 @@ To write a Python program that sorts a dictionary's:
 
 ## 🧪Program
 ```
-my_dict = {
-    'France': 'Paris',
-    'Japan': 'Tokyo',
-    'India': 'New Delhi',
-    'Brazil': 'Brasilia',
-    'usa':'NewYork'
-}
+d={2:56,1:2,5:12,4:24,6:18,3:323}
+l=[]
+for i in d:
+    l.append(i)
+l.sort()
+print("Keys and Values sorted in alphabetical order by the key")
+for i in l:
+    print(tuple([i,d[i]]),end=" ")
 
-sorted_by_keys = dict(sorted(my_dict.items()))
-sorted_by_values = dict(sorted(my_dict.items(), key=lambda item: item[1]))
 
-print("Original dictionary:", my_dict)
-print("\nDictionary sorted by keys:", sorted_by_keys)
-print("\nDictionary sorted by values:", sorted_by_values)
 ```
 
 ## Sample Output
-<img width="1687" height="577" alt="image" src="https://github.com/user-attachments/assets/4d0f3850-ab2c-48ad-8b53-0aa21760dd7a" />
+<img width="1270" height="378" alt="502987347-78369094-19ce-441b-9964-41099067227c" src="https://github.com/user-attachments/assets/5812ce08-7b1d-4d08-be94-254fb6ce5425" />
 
 
 ## Result
-Thus,a Python program that sorts a dictionary's:
-- Keys in alphabetical order
-- Values in alphabetical order
-  is executed successfully.
+Thus the program that sorts a dictionary's Keys and Values in alphabetical order is executed successfully
 
 
